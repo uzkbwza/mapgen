@@ -28,11 +28,11 @@ impl Level {
     pub fn place_rooms(&mut self, rng: &mut StdRng) {
 
         // configure room sizes
-        let max_rooms = 150000;
-        let min_room_width = 1;
-        let max_room_width = 50;
-        let min_room_height = 1;
-        let max_room_height = 50;
+        let max_rooms = 15;
+        let min_room_width = 5;
+        let max_room_width = 15;
+        let min_room_height = 5;
+        let max_room_height = 15;
 
         for _ in 0..max_rooms {
             // place up to max_rooms.
