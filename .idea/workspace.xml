@@ -12,7 +12,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ca715a-b8e3-4b4f-af44-66b84313eae7" name="Default Changelist" comment="" />
+    <list default="true" id="26ca715a-b8e3-4b4f-af44-66b84313eae7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +157,8 @@
       <workItem from="1571160015810" duration="6653000" />
       <workItem from="1571167201265" duration="7655000" />
       <workItem from="1571181021227" duration="2953000" />
-      <workItem from="1571249166708" duration="6841000" />
+      <workItem from="1571249166708" duration="7065000" />
+      <workItem from="1571259939002" duration="2000" />
     </task>
     <servers />
   </component>
