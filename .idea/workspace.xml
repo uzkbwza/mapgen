@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26ca715a-b8e3-4b4f-af44-66b84313eae7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mapgen" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="SlDLBdnb" />
+  </component>
+  <component name="ProjectId" id="1Rf1OZkApWhX8CCOg4eaLqwIvDj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../specsrl" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/sly/code/mapgen/examples/mapgen.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/sly/code/mapgen/src/bsp.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/sly/code/mapgen/src/level.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/sly/code/mapgen/src/lib.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/sly/code/mapgen/src/room.rs" value="true" />
+    <property name="org.rust.hideDetachedFileNotifications/home/sly/code/mapgen/src/rooms_corridors.rs" value="true" />
+    <property name="org.rust.hideToolchainNotifications" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Cargo Command.mapgen example">
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package untitled2 --lib tests" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mapgen example" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run --example mapgen" />
+      <option name="allFeatures" value="false" />
+      <option name="nocapture" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cargo Command.mapgen example" />
+      <item itemvalue="Cargo Command.Test lib::tests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo Command.Test lib::tests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="/usr/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26ca715a-b8e3-4b4f-af44-66b84313eae7" name="Default Changelist" comment="" />
+      <created>1570043304310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570043304310</updated>
+      <workItem from="1570043306164" duration="3208000" />
+      <workItem from="1570067253569" duration="706000" />
+      <workItem from="1570068663534" duration="8209000" />
+      <workItem from="1570141690730" duration="309000" />
+      <workItem from="1570208782137" duration="3321000" />
+      <workItem from="1570309575377" duration="940000" />
+      <workItem from="1570389622408" duration="597000" />
+      <workItem from="1570467252320" duration="595000" />
+      <workItem from="1570490150149" duration="599000" />
+      <workItem from="1570549771019" duration="1204000" />
+      <workItem from="1571076199251" duration="8000" />
+      <workItem from="1571160015810" duration="6653000" />
+      <workItem from="1571167201265" duration="7655000" />
+      <workItem from="1571181021227" duration="2953000" />
+      <workItem from="1571249166708" duration="6841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
