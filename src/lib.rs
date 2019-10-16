@@ -1,6 +1,9 @@
 use rand::prelude::*;
 pub mod level;
-mod room;
+pub mod room;
+pub mod rooms_corridors;
+pub mod bsp;
+use vecmap::*;
 
 // import crates
 extern crate sha2;
@@ -9,6 +12,7 @@ extern crate sha2;
 #[macro_use]
 extern crate arrayref;
 
+pub type TileMap = VecMap<TileType>;
 
 #[derive(Copy, Clone, Debug)]
 pub enum TileType {
