@@ -230,7 +230,6 @@ impl BspLevel {
         root.create_rooms(rng, &mut rooms);
         for room in rooms {
             self.level.create_room(&room);
-            println!("{}\n\n", self.level);
         }
     }
 }
