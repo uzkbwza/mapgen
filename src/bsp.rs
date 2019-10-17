@@ -211,7 +211,7 @@ pub struct BspLevel {
 }
 
 impl BspLevel {
-    pub fn create(width: i32, height: i32, hash: &String) -> Level {
+    pub fn create(width: i32, height: i32, hash: &str) -> Level {
         let mut rng = crate::create_rng(hash);
         let level = Level::new(width, height, hash);
         let mut map = BspLevel {

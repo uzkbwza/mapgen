@@ -33,7 +33,8 @@ fn create_hash(text: &str) -> String {
     format!("{:x}", hasher.result())
 }
 
-fn create_rng(hash: &String) -> StdRng {
+fn create_rng(text: &str) -> StdRng {
+    let hash = create_hash(text);
     let seed = array_ref!(hash.as_bytes(), 0, 32);
     let mut rng: StdRng = SeedableRng::from_seed(*seed);
     rng
