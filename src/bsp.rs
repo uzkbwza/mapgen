@@ -224,6 +224,8 @@ impl BspLevel {
     }
 
     fn place_rooms(&mut self, rng: &mut StdRng) {
+
+        // make sure walls enclose level
         let mut root = Leaf::new(1, 1, self.level.width-2, self.level.height-2, 10);
         root.generate(rng);
 
