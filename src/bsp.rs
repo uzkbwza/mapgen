@@ -224,7 +224,7 @@ impl BspLevel {
     }
 
     fn place_rooms(&mut self, rng: &mut StdRng) {
-        let mut root = Leaf::new(0, 0, self.level.width, self.level.height, 10);
+        let mut root = Leaf::new(1, 1, self.level.width-2, self.level.height-2, 10);
         root.generate(rng);
 
         let mut rooms = Vec::new();
