@@ -29,13 +29,13 @@ pub struct Point {
 
 fn create_hash(text: &str) -> String {
     let mut hasher = Sha256::default();
-    hasher.input(text.as_bytes());
-    format!("{:x}", hasher.result())
+    hasher.update(text.as_bytes());
+    format!("{:x}", hasher.finalize())
 }
 
 fn create_rng(text: &str) -> StdRng {
     let hash = create_hash(text);
     let seed = array_ref!(hash.as_bytes(), 0, 32);
-    let mut rng: StdRng = SeedableRng::from_seed(*seed);
+    let rng: StdRng = SeedableRng::from_seed(*seed);
     rng
 }
